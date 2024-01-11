@@ -37,9 +37,9 @@
 
     # 下载脚本文件，使用 GitHub 地址下载失败可以使用 jsDelivr CDN 地址进行下载
     # GitHub 地址
-    curl -kfsSL -O https://raw.githubusercontent.com/lemoeo/AX6S/main/auto_ssh.sh && chmod +x auto_ssh.sh
+    curl -kfsSL -O https://raw.githubusercontent.com/CoverUp137/AX6S/main/auto_ssh.sh && chmod +x auto_ssh.sh
     # jsDelivr CDN 地址
-    curl -kfsSL -O https://cdn.jsdelivr.net/gh/lemoeo/AX6S@main/auto_ssh.sh && chmod +x auto_ssh.sh
+    curl -kfsSL -O https://cdn.jsdelivr.net/gh/CoverUp137/AX6S@main/auto_ssh.sh && chmod +x auto_ssh.sh
 
     # 执行下面命令解锁 SSH 并添加开机自启动
     ./auto_ssh.sh install
